@@ -10,7 +10,7 @@ body{
 }
 
 /* header struttura */
-footer{
+header{
     width: 1920px;
     height: 80px;
     position: fixed;
@@ -35,7 +35,7 @@ footer{
     text-decoration: none;
 }
 
-footer #ingrandisci{
+header #ingrandisci{
     background-color: gray;
     height: 28px;
     width: 30px;
@@ -46,7 +46,7 @@ footer #ingrandisci{
     padding-top: 4px;
 }
 
-footer #ingrandisci a{
+header #ingrandisci a{
     text-decoration: none;
     color: white;
     font-size: 20px;
@@ -91,3 +91,28 @@ footer #ingrandisci a{
 
 
 /* struttura footer */
+footer{
+    width: 100%;
+    height: 115px;
+    background-color: gray;
+    display: flex;   
+    align-items: center;
+}
+
+.fa-microphone{
+    font-size: 35px;
+    padding-left: 25px;
+    color: white;
+    cursor: pointer;
+    animation: tastorosso 1s;
+}
+
+.fa-microphone:active{
+    color: red;
+}
+
+#muto{
+    color: white;
+    margin: 5px;
+    font-size: 30px;
+}
