@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    box-sizing:border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header struttura */
+footer{
+    width: 1920px;
+    height: 80px;
+    position: fixed;
+    z-index: 10;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#griglia{
+    background-color: gray;
+    height: 25px;
+    width: 130px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#griglia a{
+    color: white;
+    text-decoration: none;
+}
+
+footer #ingrandisci{
+    background-color: gray;
+    height: 28px;
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding-left: 6px;
+    padding-top: 4px;
+}
+
+footer #ingrandisci a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
